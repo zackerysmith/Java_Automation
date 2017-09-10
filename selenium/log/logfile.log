@@ -1,1 +1,2 @@
-[10-Sep-2017 18:09:520] - [ INFO]: [main] - mylog.selenium.LoggingTest.main - test
+2017-09-10 21:55:20,452  INFO [main] - mylog.selenium.LoggingTest.runme 20 - Test Message
+[10 Sep 2017 21:58:04]  INFO [main] - mylog.selenium.LoggingTest.runme 20 - Test Message
