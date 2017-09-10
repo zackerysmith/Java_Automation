@@ -16,7 +16,7 @@ public void initialize() {
 @Test
 public void runme() {
 	BasicConfigurator.configure();
-	PropertyConfigurator.configure("E:\\JavaProject\\selenium\\Properties\\log4j.properties ");
+	PropertyConfigurator.configure("E:\\JavaProject\\selenium\\Properties\\log4j.properties");
 		log.info("Test Message");
 	}
 
