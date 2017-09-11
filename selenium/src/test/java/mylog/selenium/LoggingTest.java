@@ -16,9 +16,8 @@ public void initialize() {
 @Test
 public void runme() {
 	BasicConfigurator.configure();
-	PropertyConfigurator.configure("E:\\JavaOnGitHub\\selenium\\Properties\\log4j.properties");
-		log.info("Test Message");
-		System.out.println("Added in IntelliJ Idea");
+	PropertyConfigurator.configure("Properties/log4j.properties");
+		log.info("Update in Log");
 	}
 
 }
