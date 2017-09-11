@@ -18,6 +18,7 @@ public void runme() {
 	BasicConfigurator.configure();
 	PropertyConfigurator.configure("E:\\JavaOnGitHub\\selenium\\Properties\\log4j.properties");
 		log.info("Test Message");
+		
 		System.out.println("Build on update");
 	}
 
