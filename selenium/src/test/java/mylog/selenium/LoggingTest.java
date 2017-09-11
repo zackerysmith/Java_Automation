@@ -19,7 +19,7 @@ public void runme() {
 	PropertyConfigurator.configure("E:\\JavaOnGitHub\\selenium\\Properties\\log4j.properties");
 		log.info("Test Message");
 		System.out.println("SYSO Added");
-		System.out.println("simple add");
+		System.out.println("simple add2");
 	}
 
 }
