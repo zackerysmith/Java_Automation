@@ -18,7 +18,6 @@ public void runme() {
 	BasicConfigurator.configure();
 	PropertyConfigurator.configure("Properties/log4j.properties");
 		log.info("Update in Log");
-		System.out.println("Recheck - last");
 	}
 
 }
