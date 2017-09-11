@@ -19,7 +19,7 @@ public void runme() {
 	PropertyConfigurator.configure("Properties/log4j.properties");
 		log.info("Update in Log");
 		System.out.println("Now should Auto deploy");
-
+        System.out.println("new line");
 	}
 
 }
