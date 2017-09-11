@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class LoggingTest {
 
-public static final Logger log = Logger.getLogger(LoggingTest.class);
+private static final Logger log = Logger.getLogger(LoggingTest.class);
 @BeforeTest
 public void initialize() {
 	
@@ -18,7 +18,7 @@ public void runme() {
 	BasicConfigurator.configure();
 	PropertyConfigurator.configure("E:\\JavaOnGitHub\\selenium\\Properties\\log4j.properties");
 		log.info("Test Message");
-
+		System.out.println("Added in IntelliJ Idea");
 	}
 
 }
