@@ -18,6 +18,7 @@ public void runme() {
 	BasicConfigurator.configure();
 	PropertyConfigurator.configure("Properties/log4j.properties");
 		log.info("Sucessful CI");
+		log.debug("new Debug");
 	}
 
 }
