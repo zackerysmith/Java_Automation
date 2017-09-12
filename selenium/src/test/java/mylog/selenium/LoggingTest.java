@@ -19,6 +19,7 @@ public void runme() {
 	PropertyConfigurator.configure("Properties/log4j.properties");
 		log.info("Sucessful CI");
 		log.debug("new Debug");
+		log.debug("added chrome notification");
 	}
 
 }
