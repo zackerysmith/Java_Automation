@@ -17,9 +17,7 @@ public void initialize() {
 public void runme() {
 	BasicConfigurator.configure();
 	PropertyConfigurator.configure("Properties/log4j.properties");
-		log.info("Update in Log");
-		log.info("Completed");
-		log.debug("updated a data");
+		log.info("Sucessful CI");
 	}
 
 }
