@@ -19,7 +19,7 @@ public void runme() {
 	PropertyConfigurator.configure("Properties/log4j.properties");
 		log.info("Update in Log");
 		log.info("Completed");
-		Log.debug("updated a data");
+		log.debug("updated a data");
 	}
 
 }
